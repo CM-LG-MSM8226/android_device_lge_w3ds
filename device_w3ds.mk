@@ -25,8 +25,7 @@ DEVICE_PACKAGE_OVERLAYS += device/lge/w3ds/overlay
 PRODUCT_COPY_FILES += \
     device/lge/w3ds/prebuilt/etc/media_profiles.xml:system/etc/media_profiles.xml \
     device/lge/w3ds/prebuilt/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
-    device/lge/w3ds/prebuilt/usr/idc/touch_dev.idc:system/usr/idc/touch_dev.idc \
-    device/lge/w3ds/prebuilt/usr/keylayout/Generic.kl:system/usr/keylayout/Generic.kl
+    device/lge/w3ds/prebuilt/usr/idc/touch_dev.idc:system/usr/idc/touch_dev.idc
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
