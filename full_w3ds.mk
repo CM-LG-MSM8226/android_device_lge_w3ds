@@ -22,5 +22,4 @@ $(call inherit-product, device/lge/w3ds/device_w3ds.mk)
 PRODUCT_DEVICE := w3ds
 PRODUCT_NAME := full_w3ds
 PRODUCT_BRAND := lge
-PRODUCT_MODEL := wds
 PRODUCT_MANUFACTURER := LGE
