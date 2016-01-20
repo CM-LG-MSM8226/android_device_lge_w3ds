@@ -39,7 +39,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/twrp/vendor/firmware/keymaster/keymaster.b02:recovery/root/vendor/firmware/keymaster/keymaster.b02 \
     $(LOCAL_PATH)/twrp/vendor/firmware/keymaster/keymaster.b03:recovery/root/vendor/firmware/keymaster/keymaster.b03 \
     $(LOCAL_PATH)/twrp/vendor/firmware/keymaster/keymaster.mdt:recovery/root/vendor/firmware/keymaster/keymaster.mdt \
-    $(LOCAL_PATH)/twrp/vendor/lib/hw/keystore.msm8226.so:recovery/root/vendor/lib/hw/keystore.msm8610.so \
+    $(LOCAL_PATH)/twrp/vendor/lib/hw/keystore.msm8610.so:recovery/root/vendor/lib/hw/keystore.msm8610.so \
     $(LOCAL_PATH)/twrp/vendor/lib/libQSEEComAPI.so:recovery/root/vendor/lib/libQSEEComAPI.so
 
 # Screen density
