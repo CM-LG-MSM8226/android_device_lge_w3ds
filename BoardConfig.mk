@@ -34,7 +34,7 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8610
 TARGET_BOOTLOADER_BOARD_NAME := w3ds
 
 # Kernel
-TARGET_KERNEL_CONFIG := w3ds_cyanogenmod_defconfig
+TARGET_KERNEL_CONFIG := w3ds_lineageos_defconfig
 
 # Filesystem,
 BOARD_FLASH_BLOCK_SIZE := 131072
