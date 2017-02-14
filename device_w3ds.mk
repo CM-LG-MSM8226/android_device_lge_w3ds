@@ -50,6 +50,10 @@ PRODUCT_PACKAGES += \
     sensors.msm8610 \
     sensors.qcom
 
+# CMActions
+PRODUCT_PACKAGES += \
+    CMActions
+
 # Inherit from msm8226-common
 $(call inherit-product, device/lge/msm8226-common/msm8226.mk)
 $(call inherit-product, vendor/lge/w3ds/w3ds-vendor.mk)
