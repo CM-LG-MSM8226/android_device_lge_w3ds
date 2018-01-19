@@ -56,5 +56,8 @@ PRODUCT_PACKAGES += \
 
 # Inherit from msm8226-common
 $(call inherit-product, device/lge/msm8226-common/msm8226.mk)
+# Inherit 512 GO defaults
+$(call inherit-product, $(SRC_TARGET_DIR)/product/go_defaults_512.mk)
+
 $(call inherit-product, vendor/lge/w3ds/w3ds-vendor.mk)
 
